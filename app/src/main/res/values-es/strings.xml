@@ -1,3 +1,3 @@
 <resources>
-    <string name="sample_text">Probando Update App View.\nSi hay una actualización disponible, una barra de actualización debería mostrarse arriba.</string>
+    <string name="sample_text">App demo para la librería Simple App Update.\nSi hay una actualización disponible, una barra de actualización debería mostrarse arriba.</string>
 </resources>

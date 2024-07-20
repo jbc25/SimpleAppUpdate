@@ -1,4 +1,13 @@
 <resources>
-    <string name="app_name" translatable="false">UpdateAppView</string>
-    <string name="sample_text">Testing Update App View.\nIf there is an update available, an update bar should be shown above.</string>
+    <string name="app_name" translatable="false">SimpleAppUpdate</string>
+    <string name="sample_text">Demo app for Simple App Update library.\nIf there is an update available, an update bar should be shown above.</string>
+    <string name="manual_ckeck">Manual check</string>
+    <string name="check_for_update">Check for update</string>
+    <string name="checking">Checking...</string>
+    <string name="update_available">Update available!</string>
+    <string name="launch_update">Launch update</string>
+    <string name="update">Update</string>
+    <string name="update_logs">Update logs</string>
+    <string name="cancel_work">Cancel Work</string>
+    <string name="worker_status">Worker satus</string>
 </resources>
