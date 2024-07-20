@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_available">New version available!</string>
+    <string name="update">Update</string>
+    <string name="channel_notif_update_app_name">Update available</string>
+    <string name="channel_notif_update_app_description">Notification to alert when there is a new app update</string>
+    <string name="press_to_update">Press to open the app and update</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">UpdateAppView</string>
+    <string name="sample_text">Testing Update App View.\nIf there is an update available, an update bar should be shown above.</string>
+</resources>
