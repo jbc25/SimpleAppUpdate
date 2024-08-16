@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="com.triskelapps.updateappviewsample.MainActivity">
+    tools:context="com.triskelapps.simpleappupdatesample.MainActivity">
 
     <com.triskelapps.simpleappupdate.SimpleAppUpdateView
         android:id="@+id/simple_app_update_view"

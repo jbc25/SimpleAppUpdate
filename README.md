@@ -1,4 +1,4 @@
-## Update App View
+## SimpleAppUpdate
 
 [![Release](https://jitpack.io/v/com.triskelapps/updateappview.svg)](https://jitpack.io/#com.triskelapps/updateappview)
 

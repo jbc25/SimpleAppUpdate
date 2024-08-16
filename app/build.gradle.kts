@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.triskelapps.updateappviewsample"
+    namespace = "com.triskelapps.simpleappupdatesample"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.triskelapps.updateappviewsample"
+        applicationId = "com.triskelapps.simpleappupdatesample"
         minSdk = 21
         targetSdk = 34
         versionCode = 128

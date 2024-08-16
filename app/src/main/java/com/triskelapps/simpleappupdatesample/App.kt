@@ -1,4 +1,4 @@
-package com.triskelapps.updateappviewsample
+package com.triskelapps.simpleappupdatesample
 
 import android.app.Application
 import com.triskelapps.simpleappupdate.SimpleAppUpdate

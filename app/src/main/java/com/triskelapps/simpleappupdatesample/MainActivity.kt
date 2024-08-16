@@ -1,10 +1,10 @@
-package com.triskelapps.updateappviewsample
+package com.triskelapps.simpleappupdatesample
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.triskelapps.simpleappupdate.SimpleAppUpdate
-import com.triskelapps.updateappviewsample.databinding.ActivityMainBinding
+import com.triskelapps.simpleappupdatesample.databinding.ActivityMainBinding
 
 
 class MainActivity : AppCompatActivity() {
@@ -39,9 +39,6 @@ class MainActivity : AppCompatActivity() {
             binding.tvLogs.text = simpleAppUpdate.getLogs()
         }
 
-
-        simpleAppUpdate.cancelWork("appUpdateCheckWork")
-        simpleAppUpdate.cancelWork("SimpleAppUpdateCheckWork")
 
     }
 
