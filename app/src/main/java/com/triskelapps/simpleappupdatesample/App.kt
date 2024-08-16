@@ -12,7 +12,7 @@ class App : Application() {
 
         val notificationStyle = NotificationStyle(R.mipmap.simple_app_update_notif_icon, R.color.red)
         val workerConfig =
-            WorkerConfig(30, TimeUnit.MINUTES, 15, TimeUnit.MINUTES)
+            WorkerConfig(20, TimeUnit.MINUTES, 10, TimeUnit.MINUTES)
 
         SimpleAppUpdate.schedulePeriodicChecks(this, BuildConfig.VERSION_CODE, notificationStyle, workerConfig)
     }

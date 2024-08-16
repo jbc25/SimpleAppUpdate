@@ -1,6 +1,8 @@
+![Library icon](https://raw.githubusercontent.com/jbc25/SimpleAppUpdate/master/app/src/main/res/mipmap-xhdpi/simple_app_update_corners_icon.png)
+
 ## SimpleAppUpdate
 
-[![Release](https://jitpack.io/v/com.triskelapps/updateappview.svg)](https://jitpack.io/#com.triskelapps/updateappview)
+[![Release](https://jitpack.io/v/com.triskelapps/simpleappupdate.svg)](https://jitpack.io/#com.triskelapps/simpleappupdate)
 
 A very simple way to let Android users update your app
 
