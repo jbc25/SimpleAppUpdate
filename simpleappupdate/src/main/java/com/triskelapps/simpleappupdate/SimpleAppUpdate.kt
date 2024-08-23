@@ -169,7 +169,7 @@ class SimpleAppUpdate(private val context: Context) {
     }
 
 
-    fun getWorkStatus(): WorkInfo.State? {
+    fun getWorkInfo(): WorkInfo? {
         val instance: WorkManager = WorkManager.getInstance(context)
         val statuses: ListenableFuture<List<WorkInfo>> = instance.getWorkInfosForUniqueWork(
             "${context.packageName}.$UNIQUE_WORK_NAME"
@@ -180,7 +180,7 @@ class SimpleAppUpdate(private val context: Context) {
             Log.i(TAG, "getWorkerStatus: workInfoList count: ${workInfoList.size}")
             for (workInfo in workInfoList) {
                 Log.i(TAG, "getWorkerStatus: workInfo: $workInfo")
-                return workInfo.state
+                return workInfo
             }
         } catch (e: ExecutionException) {
             e.printStackTrace()
@@ -190,10 +190,9 @@ class SimpleAppUpdate(private val context: Context) {
         return null
     }
 
-    fun cancelWork() {
-        WorkManager.getInstance(context)
-            .cancelUniqueWork("${context.packageName}.$UNIQUE_WORK_NAME")
-    }
+    fun cancelWork(uniqueName: String = "${context.packageName}.$UNIQUE_WORK_NAME") =
+        WorkManager.getInstance(context).cancelUniqueWork(uniqueName)
+
 
     fun getLogs() = getLogs(context)
 

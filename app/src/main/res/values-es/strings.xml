@@ -1,3 +1,18 @@
 <resources>
     <string name="sample_text">App demo para la librería Simple App Update.\nSi hay una actualización disponible, una barra de actualización debería mostrarse arriba.</string>
+    <string name="manual_ckeck">Comprobación manual</string>
+    <string name="check_for_update">Comprobar actualización</string>
+    <string name="checking">Comprobando...</string>
+    <string name="update_available">¡Actualización disponible!</string>
+    <string name="launch_update">Lanzar actualización</string>
+    <string name="update">Actualizar</string>
+    <string name="cancel_work">Cancelar tarea</string>
+    <string name="worker_status">Estado de la tarea</string>
+    <string name="periodic_check_worker">Tarea de comprobación periódica</string>
+    <string name="show_logs">Mostrar logs</string>
+    <string name="start">Comenzar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="status_x">Estado: %s</string>
+    <string name="no_update_available">No hay actualizaciones</string>
+    <string name="next_check">\nPróxima comprobación: %s</string>
 </resources>

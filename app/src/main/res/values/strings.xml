@@ -7,7 +7,13 @@
     <string name="update_available">Update available!</string>
     <string name="launch_update">Launch update</string>
     <string name="update">Update</string>
-    <string name="update_logs">Update logs</string>
     <string name="cancel_work">Cancel Work</string>
     <string name="worker_status">Worker satus</string>
+    <string name="periodic_check_worker">Periodic check worker</string>
+    <string name="show_logs">Show logs</string>
+    <string name="start">Start</string>
+    <string name="cancel">Cancel</string>
+    <string name="status_x">Status: %s</string>
+    <string name="no_update_available">No update available</string>
+    <string name="next_check">\nNext check: %s</string>
 </resources>
