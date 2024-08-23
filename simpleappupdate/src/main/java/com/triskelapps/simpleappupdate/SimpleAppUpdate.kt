@@ -190,6 +190,7 @@ class SimpleAppUpdate(private val context: Context) {
         return null
     }
 
+    @JvmOverloads
     fun cancelWork(uniqueName: String = "${context.packageName}.$UNIQUE_WORK_NAME") =
         WorkManager.getInstance(context).cancelUniqueWork(uniqueName)
 
