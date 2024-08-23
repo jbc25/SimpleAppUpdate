@@ -191,8 +191,9 @@ class SimpleAppUpdate(private val context: Context) {
     }
 
     @JvmOverloads
-    fun cancelWork(uniqueName: String = "${context.packageName}.$UNIQUE_WORK_NAME") =
+    fun cancelWork(uniqueName: String = "${context.packageName}.$UNIQUE_WORK_NAME") {
         WorkManager.getInstance(context).cancelUniqueWork(uniqueName)
+    }
 
 
     fun getLogs() = getLogs(context)
