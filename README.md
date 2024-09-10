@@ -28,7 +28,7 @@ It is a wrapper of [In-App Updates Google Play library](https://developer.androi
 
 With just these lines, the user will see a view if there is an update available of your app in Google Play. It includes an Update button and Close icon to hide the view for this session:
 
-<img src="docs/update-view-demo.png" width="240">
+<img src="docs/update-view-demo.png" width="280">
 
 - If you want to customize that view, there are some properties to set the background and foreground colors (text color and icon tint) and the text style (font size, typography, etc.):
 
