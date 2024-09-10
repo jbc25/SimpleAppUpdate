@@ -90,18 +90,18 @@ SimpleAppUpdate.schedulePeriodicChecks(context, BuildConfig.VERSION_CODE, notifi
 > [!NOTE]
 > Inside checks scheduling, the library uses a [Unique Work](https://developer.android.com/develop/background-work/background-tasks/persistent/how-to/manage-work#unique-work) to ensure there is only one active work, so it is safe to call `SimpleAppUpdate.schedulePeriodicChecks(...)` more than once, for example inside  onCreate() method of Application class
 
-By default the checks periodicity is set to **8 hours (with 2 hours of flex interval)**. [See documentation](https://developer.android.com/develop/background-work/background-tasks/persistent/getting-started/define-work#flexible_run_intervals) for more info.
+- By default the checks periodicity is set to **8 hours (with 2 hours of flex interval)**. [See documentation](https://developer.android.com/develop/background-work/background-tasks/persistent/getting-started/define-work#flexible_run_intervals) for more info.
 If you want to set your own period, just add the parameters when building `WorkerConfig`:
 ```kotlin
 val workerConfig = WorkerConfig(2, TimeUnit.HOURS, 30, TimeUnit.MINUTES)
 ```
 
-To cancel an active check update worker call:
+- To cancel an active check update worker call:
 ```kotlin
 simpleAppUpdate.cancelWork()
 ```
 
-To check the work status, you can access the [WorkInfo](https://developer.android.com/reference/androidx/work/WorkInfo) data:
+- To check the work status, you can access the [WorkInfo](https://developer.android.com/reference/androidx/work/WorkInfo) data:
 ```kotlin
 val workInfo = simpleAppUpdate.getWorkInfo()
 ```
