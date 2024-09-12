@@ -1,3 +1,4 @@
+
 ![Library icon](https://raw.githubusercontent.com/jbc25/SimpleAppUpdate/master/app/src/main/res/mipmap-xhdpi/simple_app_update_corners_icon.png)
 
 # SimpleAppUpdate
@@ -18,7 +19,25 @@ It is a wrapper of [In-App Updates Google Play library](https://developer.androi
 
 ### Getting started
 
--  Add the view to your main layout
+- Add the dependency in your build.gradle file:
+
+```kotlin
+dependencies {
+	implementation 'com.triskelapps:simpleappupdate:{last_version}'
+}
+```
+> [!NOTE]
+> 1. Check `{last_version}`in the Jitpack badge above
+> 2. Add Jitpack repository in root gradle file if you don't have it already:
+>
+```kotlin
+repositories {
+	...
+	maven { url 'https://jitpack.io' }
+}  
+```
+
+- Add the view to your main layout
 
 ```xml
 <com.triskelapps.simpleappupdate.SimpleAppUpdateView
